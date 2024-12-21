@@ -4,7 +4,8 @@ import { LuDownload as DownloadIcon } from 'react-icons/lu';
 import GoogleDocsEmbed from '@/common/components/elements/GoogleDocsEmbed';
 
 const Resume = () => {
-  const RESUME_URL = 'https://bit.ly/cv-aulianza';
+  const RESUME_URL =
+    'https://res.cloudinary.com/dr0qq0taf/image/upload/v1734705277/Portfolio/ctwzqjgd1numvsolofg0.pdf';
 
   return (
     <div className='space-y-5'>

@@ -23,7 +23,7 @@ const ChatItem = ({
 }: ChatItemProps) => {
   const { data: session } = useSession();
 
-  const authorEmail = 'aulianza.dev@gmail.com';
+  const authorEmail = 'kimaru355.dev@gmail.com';
 
   const pattern = /@([^:]+):/g;
   const modifiedMessage = message?.split(pattern).map((part, index) => {
@@ -61,7 +61,7 @@ const ChatItem = ({
             {email === authorEmail && (
               <div className='text-medium flex items-center gap-0.5 rounded-full bg-gradient-to-bl from-purple-800 via-violet-900 to-purple-800 px-1.5 py-0.5 text-violet-50'>
                 <AdminIcon size={13} />
-                <span className=' text-[10px]'>Author</span>
+                <span className='text-[10px]'>Author</span>
               </div>
             )}
             <div className='hidden md:flex'>

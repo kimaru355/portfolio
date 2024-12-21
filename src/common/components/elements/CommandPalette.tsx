@@ -129,7 +129,9 @@ const CommandPalette = () => {
 
   const handleFindGoogle = () => {
     const url =
-      'https://www.google.com/search?q=' + queryDebounce + '&ref=aulianza.id';
+      'https://www.google.com/search?q=' +
+      queryDebounce +
+      '&ref=kimaru355.tech';
     window.open(url, '_blank');
   };
 
@@ -240,7 +242,7 @@ const CommandPalette = () => {
                 )}
                 <Combobox.Input
                   onChange={handleSearch}
-                  className='h-14 w-full border-0 bg-transparent  text-neutral-800 placeholder-neutral-500 focus:outline-none focus:ring-0 dark:text-neutral-200'
+                  className='h-14 w-full border-0 bg-transparent text-neutral-800 placeholder-neutral-500 focus:outline-none focus:ring-0 dark:text-neutral-200'
                   placeholder={
                     askAssistantClicked ? queryDebounce : placeholder
                   }
@@ -295,13 +297,13 @@ const CommandPalette = () => {
                               </div>
                               <>
                                 {isActiveRoute(child?.href) ? (
-                                  <span className='animate-pulse  text-xs text-neutral-500'>
+                                  <span className='animate-pulse text-xs text-neutral-500'>
                                     You are here
                                   </span>
                                 ) : (
                                   <>
                                     {child?.type && (
-                                      <div className='rounded-md border border-neutral-400 px-1.5 py-0.5  text-xs text-neutral-500 dark:border-neutral-500'>
+                                      <div className='rounded-md border border-neutral-400 px-1.5 py-0.5 text-xs text-neutral-500 dark:border-neutral-500'>
                                         {child?.type}
                                       </div>
                                     )}

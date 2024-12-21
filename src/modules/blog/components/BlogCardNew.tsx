@@ -85,7 +85,7 @@ const BlogCardNew = ({
 
           <div className='flex flex-col justify-end'>
             <div className='flex flex-col space-y-3'>
-              <h3 className=' text-lg font-medium text-neutral-100 group-hover:underline group-hover:underline-offset-4 '>
+              <h3 className='text-lg font-medium text-neutral-100 group-hover:underline group-hover:underline-offset-4'>
                 {title?.rendered}
               </h3>
               <div className='flex items-center gap-1 text-neutral-400'>
@@ -100,10 +100,10 @@ const BlogCardNew = ({
             </div>
             <Breakline className='!border-neutral-700' />
             <div className='flex justify-between gap-4 px-0.5 text-neutral-400'>
-              <Tooltip title='by aulianza'>
+              <Tooltip title='by kimaru355'>
                 <Image
-                  src='/images/aulianza-new.png'
-                  alt='Ryan Aulia'
+                  src='/images/kimaru355-new.png'
+                  alt='Emmanuel Kimaru'
                   width={25}
                   height={25}
                   rounded='rounded-full'
@@ -116,7 +116,7 @@ const BlogCardNew = ({
                 initial='visible'
                 animate={isHovered ? 'hidden' : 'visible'}
                 className={clsx(
-                  'flex justify-between gap-4 ',
+                  'flex justify-between gap-4',
                   isHovered && 'hidden',
                 )}
               >

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://aulianza.id
+Host: https://kimaru355.tech
 
 # Sitemaps
-Sitemap: https://aulianza.id/sitemap.xml
+Sitemap: https://kimaru355.tech/sitemap.xml
